@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		492C03621C20921200BFD345 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492C03611C20921200BFD345 /* MainViewController.swift */; };
 		4993E9501C205641000C68E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993E94F1C205641000C68E9 /* AppDelegate.swift */; };
 		4993E9521C205641000C68E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993E9511C205641000C68E9 /* ViewController.swift */; };
 		4993E9551C205641000C68E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993E9531C205641000C68E9 /* Main.storyboard */; };
@@ -14,6 +15,12 @@
 		4993E95A1C205641000C68E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4993E9581C205641000C68E9 /* LaunchScreen.storyboard */; };
 		4993E9651C205641000C68E9 /* TwitterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993E9641C205641000C68E9 /* TwitterTests.swift */; };
 		4993E9701C205641000C68E9 /* TwitterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4993E96F1C205641000C68E9 /* TwitterUITests.swift */; };
+		4993E97E1C205680000C68E9 /* Firebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993E97D1C205680000C68E9 /* Firebase.framework */; };
+		4993E9831C205C5D000C68E9 /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993E9821C205C5D000C68E9 /* libc++.1.dylib */; };
+		4993E9851C205C7C000C68E9 /* libicucore.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993E9841C205C7C000C68E9 /* libicucore.A.dylib */; };
+		4993E9871C205C86000C68E9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993E9861C205C86000C68E9 /* SystemConfiguration.framework */; };
+		4993E9891C205C8F000C68E9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993E9881C205C8F000C68E9 /* Security.framework */; };
+		4993E98B1C205C97000C68E9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4993E98A1C205C97000C68E9 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		492C03611C20921200BFD345 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4993E94C1C205641000C68E9 /* Twitter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Twitter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4993E94F1C205641000C68E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4993E9511C205641000C68E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,13 @@
 		4993E96B1C205641000C68E9 /* TwitterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4993E96F1C205641000C68E9 /* TwitterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterUITests.swift; sourceTree = "<group>"; };
 		4993E9711C205641000C68E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4993E97D1C205680000C68E9 /* Firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Firebase.framework; sourceTree = "<group>"; };
+		4993E97F1C205BF9000C68E9 /* Twitter-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Twitter-Bridging-Header.h"; sourceTree = "<group>"; };
+		4993E9821C205C5D000C68E9 /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		4993E9841C205C7C000C68E9 /* libicucore.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.A.dylib; path = ../../../../../../../usr/lib/libicucore.A.dylib; sourceTree = "<group>"; };
+		4993E9861C205C86000C68E9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4993E9881C205C8F000C68E9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4993E98A1C205C97000C68E9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +69,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4993E98B1C205C97000C68E9 /* CFNetwork.framework in Frameworks */,
+				4993E9891C205C8F000C68E9 /* Security.framework in Frameworks */,
+				4993E9871C205C86000C68E9 /* SystemConfiguration.framework in Frameworks */,
+				4993E9851C205C7C000C68E9 /* libicucore.A.dylib in Frameworks */,
+				4993E9831C205C5D000C68E9 /* libc++.1.dylib in Frameworks */,
+				4993E97E1C205680000C68E9 /* Firebase.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +98,16 @@
 		4993E9431C205641000C68E9 = {
 			isa = PBXGroup;
 			children = (
+				4993E98A1C205C97000C68E9 /* CFNetwork.framework */,
+				4993E9881C205C8F000C68E9 /* Security.framework */,
+				4993E9861C205C86000C68E9 /* SystemConfiguration.framework */,
+				4993E9841C205C7C000C68E9 /* libicucore.A.dylib */,
+				4993E9821C205C5D000C68E9 /* libc++.1.dylib */,
 				4993E94E1C205641000C68E9 /* Twitter */,
 				4993E9631C205641000C68E9 /* TwitterTests */,
 				4993E96E1C205641000C68E9 /* TwitterUITests */,
 				4993E94D1C205641000C68E9 /* Products */,
+				4993E97F1C205BF9000C68E9 /* Twitter-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +124,10 @@
 		4993E94E1C205641000C68E9 /* Twitter */ = {
 			isa = PBXGroup;
 			children = (
+				4993E97D1C205680000C68E9 /* Firebase.framework */,
 				4993E94F1C205641000C68E9 /* AppDelegate.swift */,
 				4993E9511C205641000C68E9 /* ViewController.swift */,
+				492C03611C20921200BFD345 /* MainViewController.swift */,
 				4993E9531C205641000C68E9 /* Main.storyboard */,
 				4993E9561C205641000C68E9 /* Assets.xcassets */,
 				4993E9581C205641000C68E9 /* LaunchScreen.storyboard */,
@@ -259,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				492C03621C20921200BFD345 /* MainViewController.swift in Sources */,
 				4993E9521C205641000C68E9 /* ViewController.swift in Sources */,
 				4993E9501C205641000C68E9 /* AppDelegate.swift in Sources */,
 			);
@@ -400,10 +430,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Twitter",
+				);
 				INFOPLIST_FILE = Twitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = mattia.Twitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Twitter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -411,10 +450,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Twitter",
+				);
 				INFOPLIST_FILE = Twitter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LIBTOOLFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = mattia.Twitter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Twitter-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -485,6 +532,7 @@
 				4993E9761C205641000C68E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4993E9771C205641000C68E9 /* Build configuration list for PBXNativeTarget "TwitterTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +541,7 @@
 				4993E9791C205641000C68E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4993E97A1C205641000C68E9 /* Build configuration list for PBXNativeTarget "TwitterUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +550,7 @@
 				4993E97C1C205641000C68E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
